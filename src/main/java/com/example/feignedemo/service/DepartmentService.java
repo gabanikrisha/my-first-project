@@ -33,15 +33,15 @@ public class DepartmentService {
         return new ResponseEntity<>(savedEmployee, HttpStatus.CREATED);
     }
 
-    public ResponseEntity<Employee> updateEmployee(Long id, Employee employee) {
-        Employee updatedEmployee = employeeClient.updateEmployee(id, employee);
-        return new ResponseEntity<>(updatedEmployee, HttpStatus.OK);
-    }
+//    public ResponseEntity<Employee> updateEmployee(Long id, Employee employee) {
+//        Employee updatedEmployee = employeeClient.updateEmployee(id, employee);
+//        return new ResponseEntity<>(updatedEmployee, HttpStatus.OK);
+//    }
 
-    public ResponseEntity<Void> deleteEmployee(Long id) {
-        employeeClient.deleteEmployee(id);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-    }
+//    public ResponseEntity<Void> deleteEmployee(Long id) {
+//        employeeClient.deleteEmployee(id);
+//        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+//    }
 
 }
 
